@@ -20,6 +20,7 @@ public abstract class ChessPiece {
 
 	/**
 	 * This is the constructor
+	 * @param howImportant points of each piece
 	 **/
 	public ChessPiece(int howImportant) {
 		this.howImportant = howImportant;
